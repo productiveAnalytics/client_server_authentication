@@ -18,8 +18,8 @@ cd client/ && ls -larth
 ### Register client public key in Server's trust store
 ### Register server public key in Client's trust store
 ```
-chmod +x ./mutually_authenticate_server_and_client.sh
-./mutually_authenticate_server_and_client.sh
+chmod +x ./create_truststore_and_mutually_authenticate_server-client.sh
+./create_truststore_and_mutually_authenticate_server-client.sh
 ```
 
 Refer: https://unix.stackexchange.com/questions/347116/how-to-create-keystore-and-truststore-using-self-signed-certificate
